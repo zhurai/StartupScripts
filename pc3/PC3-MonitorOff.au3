@@ -1,0 +1,1 @@
+Run("C:\Windows\nircmd.exe" & " monitor off")

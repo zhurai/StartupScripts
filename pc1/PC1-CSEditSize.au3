@@ -1,0 +1,3 @@
+#REQUIREADMIN
+WinMove("COUNTER:SIDE","",554,0,1145,647)
+WinActivate("COUNTER:SIDE","")

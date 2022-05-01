@@ -7,12 +7,12 @@ Opt("WinTitleMatchMode",2)
 ; ------------------------
 ; Main
 
-CloseSteam()
+CloseStreetSmart()
 
 ; ------------------------
 ; Functions
 
-Func CloseSteam()
+Func CloseStreetSmart()
    Local $arrayofwindows = ScanWindows("StreetSmart Edge")
 
    ; Loop through array of windows

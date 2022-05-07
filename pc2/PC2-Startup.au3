@@ -2,13 +2,10 @@
 ; Assume login at 3:30
 ShellExecute('C:\Users\zhurai\Google Drive\Personal Sync\Scripts-AutoHotKey\pc2.ahk')
 
-; Start GFL Alarm
-Run("C:\Personal\Programs\GFLAlarm\GFAlarm.exe")
-
 ; Start VoiceMeeter
 Run("C:\Program Files (x86)\VB\Voicemeeter\voicemeeterpro.exe")
 
-; Start Firefox (Tasks, TickTick)
+; Start Firefox (Todoist Tasks, TickTick)
 Run('"C:\Program Files\Mozilla Firefox\firefox.exe" -P "TickTick" --no-remote')
 Sleep(30000) ; wait 0.5 minute
 

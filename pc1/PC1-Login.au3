@@ -3,63 +3,12 @@ Opt("WinTitleMatchMode",2)
 #include <Array.au3>
 #include <MsgBoxConstants.au3>
 
-; doesn't need x/y modification: AK, any bluestacks, CS, Priconne JP
-; needs x/y modification: PCN, GFL, FGO, TLW, AL, E7
-
-
-Global $Arknights [4][4] =   [[0,0,0,0], _
-                            [47,145,552,340], _ 	; login 1 (47,145) (552,340)
-                            [236,243,320,269], _ 	; login 2
-                            [407,286,491,332]] 		; base
-Global $ArknightsReset [3][4] =   [[1,0,0,0], _     ; first value is how many lines
-                            [533,51,547,65], _ 	; news remove, specific
-                            [0,0,0,0]]
-Global $PriconneEN [3][4]  =   [[0,0,0,0], _
-                            [113,198,498,325], _ 	; login
-                            [226,303,334,322]] 		; news
-Global $GirlsFrontline [3][4] =   [[0,0,0,0], _
-                            [158,138,450,279], _ 	; login
-                            [0,0,0,0]] 				; ???
-Global $FateGrandOrder [5][4] =   [[0,0,0,0], _
-                            [47,145,552,340], _ 	; game start
-                            [236,243,320,269], _ 	; login
-                            [535,53,549,62]] 		; news
-Global $FateGrandOrderReset [3][4] =   [[1,1,0,0], _  ; first = how many lines, second = how many times
-                            [233,270,329,287], _ 	;
-                            [0,0,0,0]]
-Global $TouhouLostWord [3][4] =   [[1,0,0,0], _     ; first value is how many lines
-                            [195,264,399,308], _ 	; game start
-                            [0,0,0,0]]
-Global $TouhouLostWordReset [3][4] =   [[1,5,0,0], _  ; first = how many lines, second = how many times
-                            [537,49,537,49], _ 	;
-                            [0,0,0,0]]
-;Global $AzurLane
-;Global $AzurLaneReset
-Global $EpicSeven [3][4] =   [[1,0,0,0], _     ; first value is how many lines
-                            [221,290,340,318], _ 	; game start
-                            []]
-;Global $EpicSevenReset
-
-;;; BlueStacks Emulator is stuck to 1124,0 location 566,351 dimensions so if this changes the below values must change
-;Global $AnotherEden
-;Global $BlueArchive
-;Global $BlueArchiveJP
-Global $RevivedWitch [6][4] =   [[5,0,0,0], _     	; first value is how many lines
-                            [1309,249,1500,286], _ 	; game start
-                            [1327,242,1483,280], _ 	; login
-                            [1647,71,1665,92], _ 	; news
-                            [1504,311,1531,335], _ 	; courtyard
-                            [1324,185,1401,196]]   	; mirror
-;Global $AlchemyStars
 Global $CounterSide [6][4] =   [[5,0,0,0], _     	; first value is how many lines
                             [1286,475,1317,516], _ 	; login switch view
                             [993,792,1257,837], _ 	; google sign in -> firefox pops up
                             [1662,388,1683,408], _ 	; news
                             [873,729,1302,941], _ 	; tap screen/login
                             [1353,805,1625,870]]   	; world map
-;Global $PriconneJP 
-
-
 
 ; ------------------------
 ; Main
@@ -67,50 +16,19 @@ Global $CounterSide [6][4] =   [[5,0,0,0], _     	; first value is how many line
 
 If @HOUR = 5 OR @HOUR = 6 Then
 	; For 5:30AM
-	; [Comp] PC1: AK, FGO, AL, E7, RW, CS
-	ArknightsLogin("LDPlayer 1")
-	;ArknightsLoginReset("LDPlayer 1")
-	;FateGrandOrderLogin("LDPlayer 2")
-	; Reset?
-	;AzurLaneLogin("LDPlayer 3")
-	; Reset?
-	;EpicSevenLogin("LDPlayer 4")
-	; Reset
-	RevivedWitchLogin("BlueStacks 1")
-	CounterSideLogin("COUNTER:SIDE")
+	; [Comp] PC1: 
 EndIf
 If @HOUR = 12 OR @HOUR = 13 Then
 	; For 1PM
-	; [Comp] PC1: AK, FGO, PCN, E7, BA, PCNJP
-	ArknightsLogin("LDPlayer 1")
-	;FateGrandOrderLogin("LDPlayer 2")
-	;PriconneLogin("LDPlayer 3")
-	;EpicSevenLogin("LDPlayer 4")
-	;BlueArchiveLogin("BlueStacks 1")
-	;BlueArchiveLoginReset("BlueStacks 1")
-	;PriconneJPLogin("PrincessConnectReDive")
-	; Reset?
+	; [Comp] PC1: 
 EndIf
 If @HOUR = 14 OR @HOUR = 15 Then
 	; For 3:30PM
-	; [Comp] PC1: AK, GFL, AL, E7, AS, CS
-	ArknightsLogin("LDPlayer 1")
-	;GirlsFrontlineLogin("LDPlayer 2")
-	;AzurLaneLogin("LDPlayer 3")
-	;EpicSevenLogin("LDPlayer 4")
-	;AlchemyStarsLogin("BlueStacks 1")
-	; Reset?
-	CounterSideLogin("COUNTER:SIDE")
+	; [Comp] PC1: 
 EndIf
 If @HOUR = 18 OR @HOUR = 19 Then
 	; For 8PM
-	; [Comp] PC1: AK, GFL, PCN, E7, BA, PCNJP
-	;ArknightsLogin("LDPlayer 1")
-	;GirlsFrontlineLogin("LDPlayer 2")
-	;PriconneLogin("LDPlayer 3")
-	;EpicSevenLogin("LDPlayer 4")
-	;BlueArchiveLogin("BlueStacks 1")
-	;PriconneJPLogin("COUNTER:SIDE")
+	; [Comp] PC1: 
 EndIf
 
 

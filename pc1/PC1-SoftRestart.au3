@@ -11,7 +11,7 @@ Global $BSCloseY=17
 ; Main
 
 ; Closes the application (before either: Actual Restart of the computer (closing the emulator itself) ... OR ... Restarting the applications again)
-RunWait(@AutoItExe & ' "D:\GoogleDrive\Personal Sync\Scripts-Autoit\PC1-WindowManager.au3"')
+RunWait(@AutoItExe & ' "D:\GoogleDrive\Personal Sync\Scripts-Autoit\pc1\PC1-WindowManager.au3"')
 Sleep (1000)
 OtherGames("PrincessConnectReDive")
 Sleep (1000)

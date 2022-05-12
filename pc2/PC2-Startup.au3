@@ -1,5 +1,6 @@
 #RequireAdmin
-; Assume login at 3:30
+
+; Start AutoHotkey
 ShellExecute('C:\Users\zhurai\Google Drive\Personal Sync\Scripts-AutoHotKey\pc2.ahk')
 
 ; Start VoiceMeeter
@@ -20,6 +21,10 @@ Sleep(30000) ; wait 0.5 minute
 ; Start Sublime Editor
 Sleep(30000) ; wait 0.5 minute
 Run("C:\Program Files\Sublime Text\sublime_text.exe")
+
+; Start Discord
+Sleep(30000) ; wait 0.5 minute
+Run("C:\Users\zhurai\AppData\Local\Discord\Update.exe --processStart Discord.exe", "C:\Users\zhurai\AppData\Local\Discord\app-1.0.9004")
 
 ; Start OBS
 Sleep(30000) ; wait 0.5 minute

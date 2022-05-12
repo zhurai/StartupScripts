@@ -8,7 +8,7 @@ Opt("WinTitleMatchMode",2)
 ; Main
 
 ; Close Apps only first
-RunWait(@AutoItExe & ' "D:\GoogleDrive\Personal Sync\Scripts-Autoit\pc1\PC1-SoftRestart.au3"')
+RunWait(@AutoItExe & ' "D:\GoogleDrive\Personal Sync\Scripts-Autoit\Startup\pc1\PC1-SoftRestart.au3"')
 
 ; Sleep for a bit
 Sleep(30000)

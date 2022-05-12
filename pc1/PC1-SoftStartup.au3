@@ -92,7 +92,7 @@ EndIf
 
 Sleep(60000)
 
-RunWait(@AutoItExe & ' "D:\GoogleDrive\Personal Sync\Scripts-Autoit\pc1\PC1-Login.au3"')
+RunWait(@AutoItExe & ' "D:\GoogleDrive\Personal Sync\Scripts-Autoit\Startup\pc1\PC1-Login.au3"')
 
 ; ------------------------
 ; Functions

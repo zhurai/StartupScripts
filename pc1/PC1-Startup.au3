@@ -37,8 +37,8 @@ ShellExecute('D:\GoogleDrive\Personal Sync\Scripts-AutoHotKey\pc1.ahk')
 Run("C:\Program Files (x86)\Launchy\Launchy.exe /show")
 
 ; Move Stuff
-RunWait(@AutoItExe & ' "D:\GoogleDrive\Personal Sync\Scripts-Autoit\pc1\PC1-WindowManager.au3"')
+RunWait(@AutoItExe & ' "D:\GoogleDrive\Personal Sync\Scripts-Autoit\Startup\pc1\PC1-WindowManager.au3"')
 
 ; Startup
-RunWait(@AutoItExe & ' "D:\GoogleDrive\Personal Sync\Scripts-Autoit\pc1\PC1-SoftStartup.au3"')
+RunWait(@AutoItExe & ' "D:\GoogleDrive\Personal Sync\Scripts-Autoit\Startup\pc1\PC1-SoftStartup.au3"')
 

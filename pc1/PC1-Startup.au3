@@ -26,3 +26,8 @@ RunWait(@AutoItExe & ' "D:\GoogleDrive\Personal Sync\Scripts-Autoit\Startup\pc1\
 ; Startup
 RunWait(@AutoItExe & ' "D:\GoogleDrive\Personal Sync\Scripts-Autoit\Startup\pc1\PC1-SoftStartup.au3"')
 
+; Greenshot
+Run("C:\Program Files\Greenshot\Greenshot.exe")
+
+; Keepass
+Run("C:\Program Files\KeePassXC\KeePassXC.exe")

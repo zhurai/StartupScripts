@@ -35,3 +35,12 @@ f1::
 Send, m
 return
 ; [mute]
+
+; Orange MuMu 
+#IfWinActive ahk_exe NebulaPlayer.exe
+
+f1:: 
+Send, ^m
+return
+; [mute]
+

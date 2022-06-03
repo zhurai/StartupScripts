@@ -1,4 +1,4 @@
 Name: Robocopy Sync
 Trigger: None
-Action: Start Program: "D:\GitHub\personal\SimpleScripts\ScheduledTasks\PC1-Robocopy Sync.bat"
+Action: Start Program: "D:\GitHub\personal\StartupScripts\ScheduledTasks\PC1-Robocopy Sync.bat"
 Notes: This is a script so that I can keep track of all of the ROBOCOPYs in my schedule

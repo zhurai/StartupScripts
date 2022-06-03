@@ -1,0 +1,4 @@
+Name: _RunVSCode
+Trigger: None
+Action: Start Program: "C:\Users\zhurai\AppData\Local\Programs\Microsoft VS Code\Code.exe"
+Notes: This enables me to use a .bat script to run this program as a non elevated user, as I needed elevated user for my emulators (so parts of my login script are elevated), but VSCode does not like to be elevated

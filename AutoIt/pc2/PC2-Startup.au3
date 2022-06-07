@@ -30,6 +30,10 @@ Run("C:\Users\zhurai\AppData\Local\Discord\Update.exe --processStart Discord.exe
 Sleep(30000) ; wait 0.5 minute
 Run("C:\Program Files (x86)\obs-studio\bin\64bit\obs64.exe", "C:\Program Files (x86)\obs-studio\bin\64bit")
 
+; Start GFL Alarm
+Sleep(30000) ; wait 0.5 minute
+Run("C:\Personal\Programs\GFLAlarm\GFAlarm.exe", "C:\Personal\Programs\GFLAlarm")
+
 ; Hide Stuff
 Sleep(30000) ; wait 0.5 minute
 Opt("SendKeyDownDelay", 100)

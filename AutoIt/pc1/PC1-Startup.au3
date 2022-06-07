@@ -21,9 +21,9 @@ Run("C:\Program Files (x86)\Launchy\Launchy.exe /show")
 ; Firefox
 Run('C:\Program Files\Mozilla Firefox\firefox.exe')
 ; Visual Studio Code
-Run("D:\GitHub\personal\SimpleScripts\ScheduledTasks\Visual Studio Code (Regular User).bat", "", @SW_HIDE)
+Run("D:\GitHub\personal\StartupScripts\ScheduledTasks\ScheduledTasks\Visual Studio Code (Regular User).bat", "", @SW_HIDE)
 ; GitHub Desktop
-Run("D:\GitHub\personal\SimpleScripts\ScheduledTasks\GitHub Desktop (Regular User).bat", "", @SW_HIDE)
+Run("D:\GitHub\personal\StartupScripts\ScheduledTasks\ScheduledTasks\GitHub Desktop (Regular User).bat", "", @SW_HIDE)
 Sleep(30000) ; wait 0.5 minute
 
 ; Move Stuff

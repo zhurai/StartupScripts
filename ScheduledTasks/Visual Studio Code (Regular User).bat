@@ -1,1 +1,0 @@
-schtasks /run /tn "_RunVSCode"

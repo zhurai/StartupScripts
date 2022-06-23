@@ -35,3 +35,10 @@ f1::
 Send, m
 return
 ; [mute]
+
+; Firefox
+#IfWinActive ahk_exe firefox.exe
+
+^+x::
+Return
+; [QOL] disable "BIDI text direction" while attempting to cut and paste

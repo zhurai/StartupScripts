@@ -36,6 +36,17 @@ Send, m
 return
 ; [toggle mute]
 
+; MuMu
+#IfWinActive ahk_exe NemuPlayer.exe
+f1::
+Send, ^m
+Return
+; [toggle mute]
+f2::
+Send, !q
+Return
+; [Screenshot]
+
 ; Firefox
 #IfWinActive ahk_exe firefox.exe
 ^+x::

@@ -12,6 +12,7 @@
 
 Run("D:\Counterside\Launcher\PDLauncher.exe","D:\Counterside\Launcher") ; Counter Side
 Run("C:\Program Files\BlueStacks_nxt\HD-MultiInstanceManager.exe") ; BlueStacks Multi Instance
+Run("C:\MuMu\emulator\nemu\EmulatorShell\NemuMultiPlayer.exe") ; MuMu Multi Player
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;; Log In
 

@@ -4,18 +4,11 @@
 ; ------------------------
 ; Main
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;  Start Emulators
-
-
-
-;;;;;;;;;;;;;;;;;;;;;;;;;; Check Time
-
 Run("D:\Counterside\Launcher\PDLauncher.exe","D:\Counterside\Launcher") ; Counter Side
 Run("C:\Program Files\BlueStacks_nxt\HD-MultiInstanceManager.exe") ; BlueStacks Multi Instance
 Run("C:\MuMu\emulator\nemu\EmulatorShell\NemuMultiPlayer.exe") ; MuMu Multi Player
 
-;;;;;;;;;;;;;;;;;;;;;;;;;; Log In
-
+; Login to the games automatically
 RunWait(@AutoItExe & ' "D:\GoogleDrive\Personal Sync\Scripts-Autoit\Startup\pc1\PC1-Login.au3"')
 
 ; ------------------------

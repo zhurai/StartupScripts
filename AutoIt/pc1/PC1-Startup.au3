@@ -29,6 +29,8 @@ Sleep(30000) ; wait 0.5 minute
 Run("D:\GitHub\personal\misc-scripts\BAT\GitHub Desktop (Regular User).bat", "", @SW_HIDE)
 ; Visual Studio Code
 Run("D:\GitHub\personal\misc-scripts\BAT\Visual Studio Code (Regular User).bat", "", @SW_HIDE)
+; Unity Hub
+Run("D:\GitHub\personal\misc-scripts\BAT\Unity Hub (Regular User).bat", "", @SW_HIDE)
 ; Wait
 Sleep(30000) ; wait 0.5 minute
 

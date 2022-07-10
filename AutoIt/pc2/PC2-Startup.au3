@@ -5,7 +5,7 @@ ShellExecute('C:\Users\zhurai\Google Drive\Personal Sync\Scripts-AutoHotKey\pc2.
 ; Start VoiceMeeter
 Run("C:\Program Files (x86)\VB\Voicemeeter\voicemeeterpro.exe")
 ; Start Firefox (Todoist Tasks, TickTick)
-Run('"C:\Program Files\Mozilla Firefox\firefox.exe" -P "TickTick" --no-remote')
+;Run('"C:\Program Files\Mozilla Firefox\firefox.exe" -P "TickTick" --no-remote')
 Sleep(30000) ; wait 0.5 minute
 
 ; Start Window Manager

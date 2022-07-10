@@ -1,5 +1,5 @@
 #RequireAdmin
-; Script to run before streaming starts
+; Script to run after streaming and awhile after (so my Discord status changes properly)
 
 ; Turn off Discord
 CloseDiscord()

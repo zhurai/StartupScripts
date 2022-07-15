@@ -47,6 +47,17 @@ Send, !q
 Return
 ; [Screenshot]
 
+; MuMu Nebula
+#IfWinActive ahk_exe NebulaPlayer.exe
+f1::
+Send, ^m
+Return
+; [toggle mute]
+f2::
+Send, !q
+Return
+; [Screenshot]
+
 ; Firefox
 #IfWinActive ahk_exe firefox.exe
 ^+x::

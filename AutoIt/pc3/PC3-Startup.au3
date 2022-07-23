@@ -15,4 +15,7 @@ Run ("C:\Program Files\Mozilla Firefox\firefox.exe")
 ; Discord
 Sleep(30000)
 Run ('C:\Users\zhurai\AppData\Local\Discord\Update.exe' & ' --processStart Discord.exe')
+
+; Maximize Discord
+Sleep(30000)
 WinSetState("Discord", "", @SW_MAXIMIZE)

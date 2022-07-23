@@ -28,10 +28,6 @@ Sleep(30000) ; wait 0.5 minute
 Run("C:\Program Files (x86)\obs-studio\bin\64bit\obs64.exe", "C:\Program Files (x86)\obs-studio\bin\64bit")
 Sleep(30000) ; wait 0.5 minute
 
-; Start GFL Alarm
-Run("C:\Personal\Programs\GFLAlarm\GFAlarm.exe", "C:\Personal\Programs\GFLAlarm")
-Sleep(30000) ; wait 0.5 minute
-
 ; Hide Stuff
 Opt("SendKeyDownDelay", 100)
 Send ('^!1')
